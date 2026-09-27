@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "path": "profile/avrelun-mark.svg",
+      "sha256": "63e67c70cb1a9b7ebda393a348b16b7c3f2269932c1ce26148ccd6cf5564756c",
+      "sources": [
+        {
+          "kind": "project",
+          "origin": "Existing Avrelun mark; editable geometry in profile/avrelun-mark.svg",
+          "author": "Yevhen Zavoloka with Codex assistance",
+          "license": "MIT",
+          "scope": "Geometric composition; no ownership claim over the Gruvbox palette",
+          "notices": {
+            "LICENSE": "76204238c8ede4078c55d88bce695c276f92eee716e30c17a415d87f90e5942e"
+          }
+        },
+        {
+          "kind": "third-party",
+          "origin": "https://github.com/morhetz/gruvbox/blob/ef8864bb42bf244f0295d1c5a403b27e3d139695/colors/gruvbox.vim",
+          "author": "Pavel Pertsev (morhetz)",
+          "license": "MIT (declared upstream)",
+          "scope": "Four palette values only; upstream package.json declares MIT and README links MIT/X11",
+          "notices": {
+            "THIRD_PARTY_NOTICES.md": "d030b5a53545f156c1d015da2ec1391a160ff3427e6ef7aaeff438683aff94a6"
+          }
+        }
+      ],
+      "evidence": "Codex self-check, 2026-09-27: read the existing SVG and upstream palette definitions, package.json and README at the pinned revision. Compared all four color values. Inspected the existing PNG rendering. SVG contains a rectangle and three paths, no text/fonts, embedded images, scripts or external resources. Copied geometry is unchanged. Local preparation and AI assistance do not establish originality; no independent similarity or trademark clearance was performed. This record is not human approval."
+    }
+  ]
+}
